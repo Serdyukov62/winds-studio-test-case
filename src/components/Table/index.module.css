@@ -1,0 +1,23 @@
+.container{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(65, 65, 68);
+    padding: 12px 22px;
+    text-align: left;
+}
+
+.table_header_item{
+    margin: 0;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}

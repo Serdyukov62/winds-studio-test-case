@@ -1,0 +1,57 @@
+.container {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid rgb(65, 65, 68);
+    border-bottom: 1px solid rgb(65, 65, 68);
+}
+
+.option_container {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-right: 1px solid rgb(65, 65, 68);
+}
+
+.select {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.select:last-child {
+    font-size: 10px;
+}
+
+.select_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 62px;
+    padding: 8px 8px 8px 22px;
+    width: 100%;
+    max-width: 240px;
+    cursor: pointer;
+    border-right: 1px solid rgb(65, 65, 68);
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: border 0.3s ease-in-out;
+    border: transparent;
+}
+
+.icon:hover {
+    border: 1px dashed rgb(161, 161, 170);
+}
+
+.option {
+    margin: 0;
+    color: var(--text-color-active);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+}

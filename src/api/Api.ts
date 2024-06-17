@@ -2,7 +2,7 @@ import type { AxiosError, AxiosInstance } from "axios";
 import axios from "axios";
 
 import { Entity } from "../types/Entity";
-import { baseURL } from "../utils/contants/baseUrl";
+import { BASE_URL } from "../utils/constants/BASE_URL";
 import { Row } from "../types/Row";
 
 
@@ -38,6 +38,6 @@ class Api {
   }
 }
 
-const api = new Api(baseURL);
+const api = new Api(BASE_URL);
 
 export default api;
